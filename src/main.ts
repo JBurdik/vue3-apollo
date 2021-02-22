@@ -5,6 +5,7 @@ import store from "./store";
 
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 import { DefaultApolloClient } from "@vue/apollo-composable";
+import './assets/tailwind.css'
 
 const defaultClient = new ApolloClient({
   uri: "http://graphql.test/graphql",
